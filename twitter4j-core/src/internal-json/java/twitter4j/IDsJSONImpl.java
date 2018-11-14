@@ -128,4 +128,9 @@ import java.util.Arrays;
                 ", nextCursor=" + nextCursor +
                 '}';
     }
+    
+    @Override
+    public String toList() {
+        return  Arrays.toString(ids);
+    }
 }
